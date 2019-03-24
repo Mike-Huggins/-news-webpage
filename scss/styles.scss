@@ -1,9 +1,14 @@
+$blackcolor: #333;
+$whitecolor: white;
+
+
+
 .links {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: $blackcolor;
 }
 
 li {
@@ -12,7 +17,7 @@ li {
   
   li a {
     display: block;
-    color:white;
+    color: $whitecolor;
     text-align: center;
     padding: 14px 0px;
     text-decoration: none;
